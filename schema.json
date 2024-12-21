@@ -326,7 +326,7 @@
     }
   },
   {
-    "name": "sales",
+    "name": "sale",
     "type": "document",
     "attributes": {
       "_id": {
@@ -339,7 +339,7 @@
         "type": "objectAttribute",
         "value": {
           "type": "string",
-          "value": "sales"
+          "value": "sale"
         }
       },
       "_createdAt": {
