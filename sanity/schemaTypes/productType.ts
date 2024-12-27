@@ -1,11 +1,12 @@
-import { TrolleyIcon } from "@sanity/icons";
+// import { TrolleyIcon } from "@sanity/icons";
+import { PiTrolleySuitcase } from "react-icons/pi";
 import { defineField, defineType } from "sanity";
 
 export const productType = defineType({
   name: "product",
   title: "Products",
   type: "document",
-  icon: TrolleyIcon,
+  icon: PiTrolleySuitcase,
   fields: [
     defineField({
       name: "name",

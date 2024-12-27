@@ -1,11 +1,12 @@
-import { TagIcon } from "@sanity/icons";
+// import { TagIcon } from "@sanity/icons";
+import { CiShoppingTag } from "react-icons/ci";
 import { defineField, defineType } from "sanity";
 
 export const categoryType = defineType({
   name: "category",
   title: "Category",
   type: "document",
-  icon: TagIcon,
+  icon: CiShoppingTag,
   fields: [
     defineField({
       name: "title",

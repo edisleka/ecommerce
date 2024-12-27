@@ -1,11 +1,12 @@
-import { BasketIcon } from "@sanity/icons";
+// import { BasketIcon } from "@sanity/icons";
+import { IoBasketOutline } from "react-icons/io5";
 import { defineArrayMember, defineField, defineType } from "sanity";
 
 export const orderType = defineType({
   name: "order",
   title: "Order",
   type: "document",
-  icon: BasketIcon,
+  icon: IoBasketOutline,
   fields: [
     defineField({
       name: "orderNumber",
@@ -139,7 +140,7 @@ export const orderType = defineType({
       return {
         title: `${select.name} (${orderIdSnippet})`,
         subtitle: `${select.amount} ${select.currency} - ${select.email}`,
-        media: BasketIcon,
+        media: IoBasketOutline,
       };
     },
   },
